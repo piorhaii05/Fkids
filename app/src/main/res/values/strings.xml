@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shopping_Online</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <style name="ToolbarTitleTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <string name="nav_drawer_open">Drawer Open</string>
+    <string name="nav_drawer_close">Drawer Close</string>
+</resources>

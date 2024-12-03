@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/clothes_25"
+            android:title="Quản lý sản phẩm" />
+        <item
+            android:id="@+id/nav_voucher"
+            android:icon="@drawable/voucher_25"
+            android:title="Quản lý Voucher" />
+        <item
+            android:id="@+id/nav_warehouse"
+            android:icon="@drawable/warehouse_25"
+            android:title="Quản lý kho" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/reply_25"
+            android:title="Liên hệ" />
+        <item
+            android:id="@+id/nav_revenue"
+            android:icon="@drawable/revenue_25"
+            android:title="Thống kê doanh thu" />
+    </group>
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_change"
+                android:icon="@drawable/icon_pass"
+                android:title="Đổi mật khẩu" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/log_out_25"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu><!--    android:icon="@drawable/clothes_25"-->

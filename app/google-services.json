@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737074847471",
+    "project_id": "fkids-62d44",
+    "storage_bucket": "fkids-62d44.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737074847471:android:4d013124424dbd4c7d051a",
+        "android_client_info": {
+          "package_name": "com.example.shopping_online"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG_GwD-ME0F-jFtSPvUPyvolp3wRxBP4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

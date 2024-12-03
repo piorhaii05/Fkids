@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbarCardLayout"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textAlignment="center"
+    app:titleTextAppearance="@style/ToolbarTitleTextAppearance" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="Ngân hàng liên kết"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/RecyclerViewCardLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1" />
+
+<TextView
+    android:id="@+id/txtAddCard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_margin="10dp"
+    android:background="@drawable/backround_button_product_add_to_cart"
+    android:padding="10dp"
+    app:drawableStartCompat="@drawable/add_35"
+    app:drawableTint="@color/white" />
+
+</LinearLayout>
